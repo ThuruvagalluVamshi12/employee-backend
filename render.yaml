@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: employee-backend
+    env: java
+    buildCommand: ./gradlew build
+    startCommand: ./gradlew bootRun
