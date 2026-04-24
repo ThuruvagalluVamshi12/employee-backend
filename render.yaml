@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: employee-backend
-    env: java
-    buildCommand: ./gradlew clean build
-    startCommand: java -jar build/libs/*.jar
